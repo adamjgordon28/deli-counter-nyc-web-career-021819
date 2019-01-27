@@ -4,7 +4,7 @@ def line(array)
     array.each_with_index do |name,index|
       line_list.push("#{index+1}. #{name} ")
     end 
-    puts "The line is currently: ".concat(line_list.join(" , "))
+    puts "The line is currently: ".concat(line_list.join(" "))
   else 
     puts "The line is currently empty."
   end
